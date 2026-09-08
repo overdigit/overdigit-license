@@ -1,0 +1,10 @@
+[Unit]
+Description=Retrieve OVERDIGIT licenses
+After=network-online.target
+
+[Service]
+Type=Oneshot
+ExecStart=/usr/libexec/wp360-license/wp360-license
+
+[Install]
+WantedBy=network-online.target
