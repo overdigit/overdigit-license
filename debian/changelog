@@ -1,3 +1,10 @@
+wp360-license (1.1.0-1) trixie; urgency=low
+
+  * Do not overwrite license file on check failure.
+  * Create license file backup before attempting download.
+
+ -- Overdigit <info@overdigit.com>  Mon, 28 Sep 2026 17:58:42 +0200
+
 wp360-license (1.0.0-1) trixie; urgency=low
 
   * Initial release.
