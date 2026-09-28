@@ -6,4 +6,8 @@ LICENSE_FILE=${LICENSE_FILE-/var/lib/wp360-license/license}
 MAC=$(tr -d : < /sys/class/net/eth0/address)
 
 # mkdir -p $(dirname "$LICENSE_FILE")
+if [ -f "$LICENSE_FILE" ]
+then
+  cp "${LICENSE_FILE}" "${LICENSE_FILE}.bak"
+fi
 curl "https://www.overdigit.com/support/license3.php?product=$PRODUCT&mac=$MAC" --fail -o "$LICENSE_FILE"
