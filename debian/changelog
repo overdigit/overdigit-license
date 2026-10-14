@@ -1,3 +1,9 @@
+overdigit-license (1.1.1-1) trixie; urgency=low
+
+  * Hard package rename.
+
+ -- Overdigit <info@overdigit.com>  Wed, 14 Oct 2026 17:51:43 +0200
+
 wp360-license (1.1.0-1) trixie; urgency=low
 
   * Do not overwrite license file on check failure.
