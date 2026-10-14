@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 PRODUCT=${PRODUCT-WP360}
-LICENSE_FILE=${LICENSE_FILE-/var/lib/wp360-license/license}
+LICENSE_FILE=${LICENSE_FILE-/var/lib/overdigit-license/license}
 
 MAC=$(tr -d : < /sys/class/net/eth0/address)
 

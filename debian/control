@@ -1,4 +1,4 @@
-Source: wp360-license
+Source: overdigit-license
 Section: misc
 Priority: optional
 Maintainer: Overdigit <info@overdigit.com>
@@ -9,7 +9,7 @@ Rules-Requires-Root: no
 #Vcs-Git: https://salsa.debian.org/debian/wp360-packages.git
 #Vcs-Browser: https://salsa.debian.org/debian/wp360-packages
 
-Package: wp360-license
+Package: overdigit-license
 Architecture: all
 Maintainer: Overdigit <info@overdigit.com>
 Depends: ${misc:Depends}, systemd, curl

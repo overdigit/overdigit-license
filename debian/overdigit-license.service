@@ -4,7 +4,7 @@ After=network-online.target
 
 [Service]
 Type=Oneshot
-ExecStart=/usr/libexec/wp360-license/wp360-license
+ExecStart=/usr/libexec/overdigit-license/overdigit-license
 
 [Install]
 WantedBy=network-online.target
